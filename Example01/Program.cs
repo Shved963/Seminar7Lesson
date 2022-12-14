@@ -35,4 +35,4 @@ string str2 = $"{str}";
 
 string.Concat("", "", "");
 //string.Empty(); //создание пустой строки
-string.IsNullOrWhiteSpace();
+//string.IsNullOrWhiteSpace();

@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Common.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "Common/1.0.0": {
-      "type": "project",
-      "path": "../../Common/Common.csproj",
-      "msbuildProject": "../../Common/Common.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "Common >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\user\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\ЯзыкиПрограммирования\\Seminar7Lesson\\Example02\\Example02.csproj",
-      "projectName": "Example02",
-      "projectPath": "C:\\Users\\user\\Desktop\\ЯзыкиПрограммирования\\Seminar7Lesson\\Example02\\Example02.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\ЯзыкиПрограммирования\\Seminar7Lesson\\Example03\\Example03.csproj",
+      "projectName": "Example03",
+      "projectPath": "C:\\Users\\user\\Desktop\\ЯзыкиПрограммирования\\Seminar7Lesson\\Example03\\Example03.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\ЯзыкиПрограммирования\\Seminar7Lesson\\Example02\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\ЯзыкиПрограммирования\\Seminar7Lesson\\Example03\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,11 +31,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\user\\Desktop\\ЯзыкиПрограммирования\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\ЯзыкиПрограммирования\\Common\\Common.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
